@@ -3,7 +3,6 @@ clear
 clc
 
 %% sd of svi-100 image stack
-
 svi100Files = dir('F:\SVIM-Paper_Data\z-depth analysis\svi100um_1p_FocalPlaneAt+200um_ImageSequence\*.tif');
 for i = 1 : length(svi100Files)
     filename = strcat('F:\SVIM-Paper_Data\z-depth analysis\svi100um_1p_FocalPlaneAt+200um_ImageSequence\',svi100Files(i).name);
