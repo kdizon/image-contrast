@@ -1,0 +1,3 @@
+This project implements a simple image contrast metric. The standard deviation of the pixel intensities from an image is measured and then normalized by the average image intensity. This measure is independent of the total pixel count, and thus provides a  concise metric for direct comparison of contrast between different methods of acqusition. More detailed notes can be found [here](https://www.biorxiv.org/content/biorxiv/early/2018/08/29/403303.full.pdf).
+
+sd.m accepts as input a seqeuence of (tiff) images, which are assumed to be xy-planes at different z-positions in a volume. If all you want to do is run sd.m on volumetric data, then this should help you get off the ground quickly.
